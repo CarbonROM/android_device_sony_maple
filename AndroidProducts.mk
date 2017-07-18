@@ -13,5 +13,7 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_g8141.mk \
-                     $(LOCAL_DIR)/aosp_g8142.mk
+                     $(LOCAL_DIR)/aosp_g8142.mk \
+                     $(LOCAL_DIR)/carbon_maple.mk \
+                     $(LOCAL_DIR)/carbon_maple_dual.mk
 
