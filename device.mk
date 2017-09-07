@@ -70,7 +70,7 @@ PRODUCT_PACKAGES += \
 
 # NFC config
 PRODUCT_PACKAGES += \
-    nfc_nci.pn54x.default
+    nfc_nci.maple
 
 # Telephony Packages (AOSP)
 PRODUCT_PACKAGES += \
