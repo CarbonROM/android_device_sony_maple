@@ -453,7 +453,7 @@ lib/com.qualcomm.qti.ant@1.0.so
 lib64/com.qualcomm.qti.ant@1.0.so
 
 # QTI_QMI
-etc/permissions/qti_libpermissions.xml
+etc/permissions/qti_libpermissions.xml|92e5814133dbc1f82fce898374d042a42c9ecf9d
 etc/permissions/qti_permissions.xml
 
 # QTI_ESEPOWERMANAGER
