@@ -67,17 +67,9 @@ PRODUCT_PACKAGES += \
     init.recovery.maple \
     init.maple
 
-# Lights
-PRODUCT_PACKAGES += \
-    lights.maple
-
 # Simple PowerHAL
 PRODUCT_PACKAGES += \
     power.maple
-
-# Fingerprint HAL
-PRODUCT_PACKAGES += \
-    fingerprint.maple
 
 # NFC config
 PRODUCT_PACKAGES += \
