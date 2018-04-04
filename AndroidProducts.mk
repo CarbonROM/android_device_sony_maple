@@ -16,3 +16,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/carbon_poplar.mk
+
+COMMON_LUNCH_CHOICES := \
+    carbon_poplar-user \
+    carbon_poplar-userdebug \
+    carbon_poplar-eng
