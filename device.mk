@@ -63,9 +63,12 @@ PRODUCT_COPY_FILES += \
 
 # Device Init
 PRODUCT_PACKAGES += \
-    fstab.maple \
+    fstab.maple_replace \
     init.recovery.maple \
     init.maple
+
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/rootdir/vendor/etc/fstab.maple:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.maple
 
 # Simple PowerHAL
 PRODUCT_PACKAGES += \
