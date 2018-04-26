@@ -63,7 +63,7 @@ PRODUCT_COPY_FILES += \
 
 # Device Init
 PRODUCT_PACKAGES += \
-    fstab.maple \
+    fstab.maple_replacement \
     init.recovery.maple \
     init.maple
 
