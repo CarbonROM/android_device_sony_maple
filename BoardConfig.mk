@@ -15,7 +15,17 @@
 include device/sony/yoshino-common/PlatformConfigCarbon.mk
 include device/sony/yoshino-common/PlatformConfig.mk
 
-TARGET_BOOTLOADER_BOARD_NAME := yoshino
+TARGET_BOOTLOADER_BOARD_NAME := unknown
+ifneq (,$(filter %g8141,$(TARGET_PRODUCT)))
+TARGET_BOOTLOADER_BOARD_NAME := G8141
+else ifneq (,$(filter %g8142,$(TARGET_PRODUCT)))
+TARGET_BOOTLOADER_BOARD_NAME := G8142
+else
+$(error Unrecognized value for TARGET_PRODUCT: "$(TARGET_PRODUCT)")
+endif
+
+# Platform
+PRODUCT_PLATFORM := yoshino
 
 # NFC
 NXP_CHIP_TYPE := PN553
