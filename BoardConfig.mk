@@ -14,7 +14,7 @@
 # limitations under the License.
 
 ### INHERIT FROM YOSHIRO
-include device/sony/yoshino/BoardConfigPlatform.mk
+include device/sony/yoshino-common/BoardConfigPlatform.mk
 include vendor/sony/maple/BoardConfigVendor.mk
 
 DEVICE_PATH := device/sony/maple
