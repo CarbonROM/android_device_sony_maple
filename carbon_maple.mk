@@ -24,8 +24,9 @@ PRODUCT_MODEL := G8141
 PRODUCT_MANUFACTURER := Sony
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=maple \
-    BUILD_FINGERPRINT=Sony/maple/maple:8.0.0/OPR6.170623.013/1:user/dev-keys
+    PRODUCT_NAME=maple
+
+BUILD_FINGERPRINT:=Sony/maple/maple:8.0.0/OPR6.170623.013/1:user/dev-keys
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.carbon.maintainer="Myself5"
