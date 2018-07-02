@@ -68,11 +68,9 @@ ro.semc.version.sw_variant=GLOBAL-LTE4A
 ro.semc.version.sw_type=user
 
 # /system/build.prop
-ro.semc.product.model=G8141
 ro.semc.ms_type_id=PM-1061-BV
 ro.semc.version.fs=GENERIC
 ro.semc.version.fs_revision=47.1.A.12.205
-ro.semc.product.name=Xperia XZ Premium
 ro.semc.product.device=G81
 
 ### KEYPROVD
