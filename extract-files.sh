@@ -67,4 +67,10 @@ TWRP_QSEECOMD="$LINEAGE_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary/recovery/ro
 
 sed -i "s|/system/bin/linker64|/sbin/linker64\x0\x0\x0\x0\x0\x0|g" "$TWRP_QSEECOMD"
 
+DEVICE_BLOB_ROOT="$LINEAGE_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary
+
+patchelf --replace-needed android.hardware.gnss@1.0.so android.hardware.gnss@1.0-v27.so $DEVICE_BLOB_ROOT/lib64/vendor.qti.gnss@1.0.so
+patchelf --replace-needed android.hardware.gnss@1.0.so android.hardware.gnss@1.0-v27.so $DEVICE_BLOB_ROOT/vendor/lib64/vendor.qti.gnss@1.0_vendor.so
+patchelf --remove-needed libstagefright_wfd.so $DEVICE_BLOB_ROOT/vendor/lib64/libstagefright_hdcp.so
+
 "$MY_DIR"/setup-makefiles.sh
