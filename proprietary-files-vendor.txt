@@ -672,8 +672,8 @@ vendor/bin/iddd
 vendor/bin/startup-logger
 vendor/etc/iddd.conf
 vendor/etc/init/startup-logger.rc
-vendor/etc/init/vendor.semc.system.idd.fallback@1.0-service.rc
-vendor/etc/init/vendor.semc.system.idd@1.0-service.rc
+vendor/etc/init/vendor.semc.system.idd.fallback@1.0-service.rc|644b3730e95ff9c9357ee77d2d9b554744dce1bf
+vendor/etc/init/vendor.semc.system.idd@1.0-service.rc|7aa3ba752edf8b870b1a7b5d34ab8fd74ee2bc6c
 vendor/etc/security/idd_config.pem
 vendor/etc/security/idd_report.pem
 vendor/lib/libidd.so
@@ -1121,7 +1121,7 @@ vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so
 # SECD
 vendor/bin/hw/vendor.semc.hardware.secd@1.0-service
 vendor/bin/secd|dc3fec15774fb73ea279f6cbe9a6167629f90e07
-vendor/etc/init/init.secd.rc|12ee81ee0ba3df1251d72228425f88d9edc9daeb
+vendor/etc/init/init.secd.rc|7ac3b77d88356b54d0db94e76a4a0a5226dd3dd3
 vendor/etc/init/vendor.semc.hardware.secd@1.0-service.rc
 vendor/lib/libcredential-manager-service.so
 vendor/lib/libdevice_security.so
@@ -1249,7 +1249,7 @@ vendor/lib64/libtpm.so
 # UDATEMISCTA
 vendor/bin/hw/vendor.somc.hardware.miscta@1.0-service
 vendor/bin/updatemiscta
-vendor/etc/init/updatemiscta.rc
+vendor/etc/init/updatemiscta.rc|5ce15b6d22f4c7aa7e13100c7ff6cfec1b876f88
 vendor/etc/init/vendor.somc.hardware.miscta@1.0-service.rc
 -vendor/lib/libmiscta.so
 -vendor/lib64/libmiscta.so
