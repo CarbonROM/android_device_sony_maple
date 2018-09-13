@@ -22,7 +22,7 @@ DEVICE_PATH := device/sony/maple
 PRODUCT_PLATFORM := yoshino
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_maple
+TARGET_LIBINIT_YOSHINO_DEFINES_FILE := $(DEVICE_PATH)/init_maple/init_maple.cpp
 TARGET_UNIFIED_DEVICE := true
 
 ### BOOTLOADER
