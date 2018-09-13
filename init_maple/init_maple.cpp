@@ -50,7 +50,7 @@ void property_override_dual(char const system_prop[], char const vendor_prop[], 
     property_override(vendor_prop, value);
 }
 
-void vendor_load_properties()
+void target_load_properties()
 {
     std::string model;
     if (std::ifstream file = std::ifstream(LTALABEL_PATH, std::ios::binary)) {
