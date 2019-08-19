@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/carbon_poplar.mk
+    $(LOCAL_DIR)/carbon_maple.mk
 
 COMMON_LUNCH_CHOICES := \
-    carbon_poplar-user \
-    carbon_poplar-userdebug \
-    carbon_poplar-eng
+    carbon_maple-user \
+    carbon_maple-userdebug \
+    carbon_maple-eng
